@@ -15,7 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        style="@style/AppBackGroundStyle"
         tools:context=".view.HomeFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -37,7 +36,6 @@
 
             <androidx.appcompat.widget.SearchView
                 app:searchIcon="@drawable/baseline_search_24"
-                style="@style/SearchViewStyle"
                 android:id="@+id/search_view"
                 android:layout_width="0dp"
                 android:layout_marginStart="10dp"
@@ -45,7 +43,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/image_view_2"
-                app:layout_constraintStart_toEndOf="@+id/image_view"
+                app:layout_constraintStart_toEndOf="@+id/camera_icon"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView

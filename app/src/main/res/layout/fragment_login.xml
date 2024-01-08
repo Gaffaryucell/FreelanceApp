@@ -67,6 +67,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/edittextLayoutEmail"
+                style="@style/EditTextThemeOverlay"
                 isEmptyCheck="@{edittextEmail}"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
